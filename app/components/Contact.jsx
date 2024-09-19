@@ -15,6 +15,7 @@ const Contact = () => {
         form.current,
         process.env.NEXT_PUBLIC_EMAILJS_USER_ID
       )
+
       .then(
         (result) => {
           console.log(result.text);
